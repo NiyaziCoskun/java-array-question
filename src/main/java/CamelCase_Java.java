@@ -18,7 +18,7 @@ public class CamelCase_Java {
 }
     public static String camelCase(String expression) {
         String newExpression = ""; //thisIsAGithubTest
-        String [] words = expression.split(" ");
+        String [] words = expression.split(" "); // ["This", "Is", "A", "Github", "Test"
 
         boolean didYouLookAtTheFirstWord = false;
 
